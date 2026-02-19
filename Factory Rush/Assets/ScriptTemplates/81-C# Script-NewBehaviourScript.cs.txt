@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+namespace Eduzo.Games.FactoryRush
+{
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+
+    }
+}
+
