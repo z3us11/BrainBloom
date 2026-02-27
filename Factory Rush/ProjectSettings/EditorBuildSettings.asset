@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FormScene.unity
+    path: Assets/Scenes/FactoryRushFormScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/FactoryRushGameplayScene.unity
+    guid: 147e23060288068458c146a33546c55c
   m_configObjects: {}

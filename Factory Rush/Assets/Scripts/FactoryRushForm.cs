@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -69,6 +70,11 @@ namespace Eduzo.Games.FactoryRush
 
             yield return new WaitForSeconds(3f);
             logMsg.text = "";
+        }
+
+        public void StartGame()
+        {
+            SceneManager.LoadScene("FactoryRushGameplayScene");
         }
     }
 }

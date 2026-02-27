@@ -10,7 +10,6 @@ namespace Eduzo.Games.FactoryRush
     public class FactoryRushSaveSystem : MonoBehaviour
     {
         Save save;
-
         private void Start()
         {
             save = new Save();
