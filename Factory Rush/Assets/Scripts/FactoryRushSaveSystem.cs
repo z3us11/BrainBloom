@@ -10,6 +10,23 @@ namespace Eduzo.Games.FactoryRush
     public class FactoryRushSaveSystem : MonoBehaviour
     {
         Save save;
+
+        public Save Save { get => save;}
+        public static FactoryRushSaveSystem Instance { get; private set; }
+
+        private void Awake()
+        {
+            if(Instance != null && Instance != this)
+            {
+                Destroy(this);
+            }
+            else
+            {
+                Instance = this;
+                DontDestroyOnLoad(this);
+            }
+        }
+
         private void Start()
         {
             save = new Save();
